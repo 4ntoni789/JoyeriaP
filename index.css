@@ -86,6 +86,14 @@ nav{
 .navBar >a:nth-child(1){
     color: var(--color-hover);
 }
+.navBar__item{
+    color: #fff;
+    cursor: pointer;
+    transition: color .5s;
+}
+.navBar__item:hover{
+    color: #f00;
+}
 .bar3{
     color: #fff;
     visibility: hidden;
@@ -738,6 +746,165 @@ footer{
 .contRedes > a > i{
     color: #555;
     margin: 12px 0 0 0 ;
+}
+.contSpanVeryCompra{
+    width: 40%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    top: -80px;
+    left: 400px;
+    z-index: 1000;
+    transition: top 1s;
+}
+.contSpanVeryCompra > p{
+    color: #444;
+    margin-right: 10px;
+}
+.contSpanVeryCompra > button{
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.contSpanVeryCompra--active{
+    top: 10px;
+}
+.navBar__contadorItems{
+    position: relative;
+    right: 10px;
+    bottom: 18px;
+    color:#f00;
+    font-weight: 600;
+    visibility: hidden;
+}
+.navBar__contadorItems--active{
+    visibility: visible;
+}
+.contMostrarCompra{
+    position: absolute;
+    background-color: #fff;
+    width: 400px;
+    z-index: 10000;
+    top: 100px;
+    right: 330px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all .5s;
+}
+.contMostrarCompra > h4{
+    margin: 30px 0 30px 30px;       
+    color: #777;
+    padding-left: 10px;
+}
+.contMostrarCompra__item{
+    margin: 5px 0 5px 0;
+}
+.contMostrarCompra__item__Cont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contMostrarCompra__item__Cont > img{
+    width: 60px;
+    height: 80px;
+    border-radius: 5px;
+}
+.contMostrarCompra__item__ContInp__inp{
+    margin-left: 20px;
+}
+.contMostrarCompra__item__ContInp__inp >p{
+    font-size: 14px;
+    width: 130px;
+    color: #333;
+}
+.contMostrarCompra__item__Cont__precio{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.contMostrarCompra__item__Cont__precio >p{
+    color: #333;
+    font-weight: 550;
+    font-size: 15px;
+}
+.contMostrarCompra__item__Cont__precio > button{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background .5s;
+}
+.contMostrarCompra__item__Cont__precio > button:active{
+    background-color: #000;
+}
+.contMostrarCompra__item__Cont__precio > button >i{
+    font-size: 15px;
+    color: #555;
+}
+.contMostrarCompra__item__ContInp__inpitem{
+    width: 90px;
+
+}
+.contMostrarCompra__item__ContInp__inpitem > input{
+    height: 25px !important ;
+}
+.contMostrarCompra__item__ContInp__inpitem > button{
+    height: 29px !important;
+}
+
+.contMostrarCompra2{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+.contMostrarCompra__Subtotal{
+    background-color: #ccc;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px !important;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px !important;
+}
+.contMostrarCompra > a{
+    text-decoration: none;
+    color: #777;
+    margin-left: 170px;
+}
+.contMostrarCompra > button{
+    width: 80%;
+    background-color: #000;
+    height: 45px;
+    margin-left: 39px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px !important;
+    cursor: pointer;
+    transition: all .5s;
+}
+.contMostrarCompra > button:hover{
+    border-radius: 30px ;
+}
+.contMostrarCompra__Subtotal > p{
+    font-weight: 600;
+    font-size: 20px;
 }
 @keyframes bntMIni {
     0%{

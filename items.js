@@ -37,7 +37,7 @@ elementsSli.map((c) => {
       <div class="contItemImg">
         <img class="itemImg" src="${c.img}" alt="${c.nombre}">
         <div class="elementosImg">
-          <i class="fa-solid fa-bag-shopping"></i>
+          <i class="fa-solid fa-bag-shopping elementosImg__item1"></i>
           <hr>
           <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
         </div>

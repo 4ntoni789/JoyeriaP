@@ -1,0 +1,23 @@
+{
+  "name": "joyeriap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ScriptSeg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ntoni789/JoyeriaP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4ntoni789/JoyeriaP/issues"
+  },
+  "homepage": "https://github.com/4ntoni789/JoyeriaP#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

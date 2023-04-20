@@ -1,38 +1,44 @@
 const elementsSli = [
   {
-    img: "https://content.app-sources.com/s/74959632708265314/thumbnails/640x480/Images/IMG_8285-2841743.jpg",
-    nombre: "Cadena ESLABÓN SEGUIDO",
+    img: "https://content.app-sources.com/s/74959632708265314/uploads/Images/5D8A2891.JPG_1-5930624.jpg",
+    nombre: "Pulsera Cubana 3mm",
+    precio: "115.000",
+    medida: "3mm",
+    categoria: "Pulseras"
+  },
+  {
+    img: "https://content.app-sources.com/s/74959632708265314/uploads/Images/IMG_6559-5955909.jpg",
+    nombre: "Pulsera Cross",
+    precio: "85.000",
+    medida: "2mm",
+    categoria: "Pulseras"
+  },
+  {
+    img: "https://content.app-sources.com/s/74959632708265314/uploads/Images/B10A1470-5930135.jpg",
+    nombre: "Pulsera Cubana ",
+    precio: "125.000",
+    medida: "5mm",
+    categoria: "Pulseras"
+  },
+  {
+    img: "https://content.app-sources.com/s/74959632708265314/uploads/Images/Pulsera_Twist_-_circon-0685273.jpg",
+    nombre: "Pulsera Dandi en Acero",
+    precio: "155.000",
+    medida: "3cm",
+    categoria: "Pulseras"
+  },
+  {
+    img: "https://content.app-sources.com/s/74959632708265314/uploads/Images/IMG_8785-5274596.jpg",
+    nombre: "Pulsera Escalava",
+    precio: "135.000",
+    medida: "4mm",
+    categoria: "Pulseras"
+  },{
+    img: "https://content.app-sources.com/s/74959632708265314/uploads/Images/IMG_4572-3368878.GIF",
+    nombre: "Pulsera Dandi Gold",
     precio: "165.000",
-    medida: "55cm",
-    categoria: "Cadena"
-  },
-  {
-    img: "https://content.app-sources.com/s/74959632708265314/thumbnails/640x480/Images/IMG_8001-1481515.jpg",
-    nombre: "Cadena TWIST SILVER",
-    precio: "131.000",
-    medida: "65cm",
-    categoria: "Cadena"
-  },
-  {
-    img: "https://content.app-sources.com/s/74959632708265314/thumbnails/640x480/Images/IMG_8506_1-3896442.jpg",
-    nombre: "Cadena Box Dama",
-    precio: "146.000",
-    medida: "45cm",
-    categoria: "Cadena"
-  },
-  {
-    img: "https://content.app-sources.com/s/74959632708265314/thumbnails/640x480/Images/IMG_5156_1-4302334.jpg",
-    nombre: "Cadena SNAKE 5",
-    precio: "137.000",
-    medida: "45cm",
-    categoria: "Cadena"
-  },
-  {
-    img: "https://content.app-sources.com/s/74959632708265314/thumbnails/640x480/Images/IMG_8953-6314934.jpg",
-    nombre: "Cadena MILITAR SILVER",
-    precio: "178.000",
-    medida: "55cm",
-    categoria: "Cadena"
+    medida: "4mm",
+    categoria: "Pulseras"
   },
 ];
 const ContadorHeader = () => {
